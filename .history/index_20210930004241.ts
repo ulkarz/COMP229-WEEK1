@@ -8,7 +8,7 @@ const port: number = 3000;
 
 const server: http.Server = http.createServer((req, res) => {
   res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/html');
+  res.setHeader('Content-Type', 'text/plain');
  displayHome(res);
 });
 
